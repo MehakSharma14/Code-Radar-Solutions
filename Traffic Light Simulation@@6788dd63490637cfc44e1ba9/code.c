@@ -8,6 +8,8 @@ int main(){
     printf("Go");
     else if(light == 'Y')
     printf("Slow Down");
+    else
+    printf("Invalid input");
     return 0;
-    
+
 }
