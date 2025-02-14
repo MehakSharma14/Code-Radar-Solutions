@@ -9,6 +9,6 @@ void main(){
         for(k=1; k<=rows ; k++){
             printf("* ");
         }
-    printf("\n");
+        printf("\n");
     }
 }
