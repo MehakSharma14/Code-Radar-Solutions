@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<ctype.h>
 int main(){
     int a,b;
     char c;
@@ -10,7 +11,7 @@ int main(){
     }else if(c== '*'){
         printf("%d", a*b);
     }else if(c== '/'){
-        printf("%f", a/b);
+        printf("%d", a/b);
     }else{
         printf("Error");
     }
