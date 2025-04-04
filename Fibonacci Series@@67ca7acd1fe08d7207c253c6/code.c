@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fibonacciSeries(int n){
+void fibonacciSeries(n){
 int a= 0, b=1, next;
 for(int i=1; i<n;i++){
     printf("%d", a);
@@ -8,7 +8,8 @@ for(int i=1; i<n;i++){
     b= next;
 }
 }
-int main(){
+
+int main() {
     int n;
     scanf("%d", &n);
     if(n<=0){
