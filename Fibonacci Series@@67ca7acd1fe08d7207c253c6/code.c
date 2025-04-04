@@ -1,7 +1,7 @@
 #include<stdio.h>
-void fibo(int n){
+void fibonacciSeries(int n){
 int a= 0, b=1, next;
-for(int i=1; i<=n;i++){
+for(int i=1; i<n;i++){
     printf("%d", a);
     next = a+b;
     a=b;
@@ -15,6 +15,6 @@ int main(){
         printf("Invalid input\n");
         return 0;
     }
-    fibo(n);
+    fibonacciSeries(n);
     return 0;
 }
